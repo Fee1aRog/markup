@@ -1,0 +1,25 @@
+img{
+    width: 250px;
+    aspect-ratio: 1;
+    outline: 125px solid rgba(0, 0, 0, 0.5);
+    outline-offset: -125px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 150px;
+}
+
+img:hover{
+    outline: 8px solid rgb(255, 255, 255);
+    outline-offset: 15px;
+}
+
+body{
+    margin-top: 100px;
+    min-height: 100px;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 50px;
+    place-content: center;
+    place-items: center;
+    background: black;
+}
