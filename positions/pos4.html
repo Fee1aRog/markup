@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        img{
+            height: 500px;
+            position: absolute;
+            z-index: -1;
+            top: 0;
+            left: 0;
+            filter: blur(3px);
+        }
+        h1, p{
+            color: cyan;
+        }
+    </style>
+</head>
+<body>
+    <h1>The Z-index property</h1>
+    <img src="picture.jpg" alt="">
+    <p>Because the image has a Z-index -1, it will be placed behind the heading and this paragraph.</p>
+</body>
+</html>
