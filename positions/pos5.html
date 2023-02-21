@@ -12,16 +12,22 @@
             margin: 0;
             position: absolute;
         }
+        .all{
+            position: absolute;
+            transform: translate(-50%, -50%);
+            top: 50%;
+            left: 50%;
+        }
         img{
             width: 1600px;
             height: 900px;
-            position: absolute;
             z-index: -1;
         }
         h1{
             position: absolute;
             top: 100px;
             left: 20px;
+            font-size: 50px;
         }
         .he{
             padding-left: 15px;
@@ -55,14 +61,24 @@
             transform: translate(-50%, -50%);
             padding: 5px 15px;
         }
+        .pgh{
+            position: absolute;
+            top: 200px;
+            left: 40px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bold;
+            font-size: 20px;
+        }
     </style>
 </head>
 <body>
+    <div class="all">
     <h1><span class="he">He</span>ader</h1>
+    <div class="pgh"><span>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</span></div>
     <img src="gym.jpg" alt="" class="gym">
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-    <span class="btn1"><</span>
-    <span class="btn2">></span>
-    <span class="sport">SPORT</span>
+    <div class="btn1"><</div>
+    <div class="btn2">></div>
+    <div class="sport">SPORT</div>
+</div>
 </body>
 </html>
